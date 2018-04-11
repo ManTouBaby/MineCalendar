@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--日历属性-->
+    <declare-styleable name="SlideCalendarView">
+        <attr name="TextColor_invalidColor" format="reference|color" />
+        <attr name="TextColor_validColor" format="reference|color" />
+        <attr name="TextColor_clickColor" format="reference|color" />
+        <attr name="TextColor_currentDayColor" format="reference|color" />
+
+        <attr name="BgColor_defaultColor" format="reference|color" />
+        <attr name="BgColor_validColor" format="reference|color" />
+        <attr name="BgColor_invalidColor" format="reference|color" />
+        <attr name="BgColor_clickColor" format="reference|color" />
+        <attr name="BgColor_currentBgColor" format="reference|color" />
+        <attr name="BgColor_mainColor" format="reference|color" />
+
+        <attr name="Attribute_isSelectMore" format="boolean" />
+        <attr name="Attribute_isShowFestival" format="boolean" />
+        <attr name="Attribute_isCircleBg" format="boolean" />
+        <attr name="Attribute_textSize" format="dimension" />
+        <attr name="Attribute_radius" format="dimension" />
+        <attr name="Attribute_cellPadding" format="dimension" />
+        <attr name="Attribute_paddingLeft" format="dimension" />
+        <attr name="Attribute_paddingRight" format="dimension" />
+        <attr name="Attribute_iconBitmap" format="reference" />
+    </declare-styleable>
+</resources>
