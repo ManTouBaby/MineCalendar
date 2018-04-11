@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#fff"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorPrimary"
+        android:paddingLeft="16dp">
+
+        <TextView
+            android:id="@+id/tv_calendar_month"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="16dp"
+            android:paddingBottom="8dp"
+            android:paddingTop="8dp"
+            android:text="5月"
+            android:textColor="#fff"
+            android:textSize="28sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/tv_calendar_year"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="4dp"
+            android:paddingBottom="8dp"
+            android:paddingTop="8dp"
+            android:text="2018年"
+            android:textColor="#fff"
+            android:textSize="16sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:layout_marginBottom="8dp"
+        android:background="@color/colorPrimary"
+        android:orientation="horizontal"
+        android:paddingLeft="16dp"
+        android:paddingRight="16dp">
+
+        <TextView
+            style="@style/weekStyle"
+            android:text="日"
+            android:textColor="#fff" />
+
+        <TextView
+            style="@style/weekStyle"
+            android:text="一"
+            android:textColor="#fff" />
+
+        <TextView
+            style="@style/weekStyle"
+            android:text="二"
+            android:textColor="#fff" />
+
+        <TextView
+            style="@style/weekStyle"
+            android:text="三"
+            android:textColor="#fff" />
+
+        <TextView
+            style="@style/weekStyle"
+            android:text="四"
+            android:textColor="#fff" />
+
+        <TextView
+            style="@style/weekStyle"
+            android:text="五"
+            android:textColor="#fff" />
+
+        <TextView
+            style="@style/weekStyle"
+            android:text="六"
+            android:textColor="#fff" />
+    </LinearLayout>
+
+    <com.hrw.calendarlibrary.SlideCalendarView
+        android:id="@+id/scv_show"
+        android:layout_width="match_parent"
+        android:layout_height="236dp"
+        app:Attribute_radius="16dp" />
+
+</LinearLayout>
